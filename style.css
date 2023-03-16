@@ -1,0 +1,53 @@
+.title {
+	background: #cc0000;
+	color: #fff;
+	padding: 0.75rem 2rem;
+  text-align:center;
+}
+
+.tips{
+  display: inline-block;
+  padding: 10px 40px;
+  color: white;
+  background: red;
+  text-decoration: none;
+}
+
+#place{
+  font-size: 23px;
+}
+
+#shadowOn {
+  filter: brightness(0%);
+}
+
+body {
+  text-align: center;
+  position: relative;
+}
+
+.next{
+  position:fixed;
+  bottom: 5%;
+  right: 15%;
+  padding: 5px 20px;
+  color: white;
+  background:  #808080;
+  text-decoration: none;
+}
+
+#btn {
+  font-size: 18px;
+  padding: 1px 5px;
+  color: #000;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+}
+
+#btn: hover{
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+

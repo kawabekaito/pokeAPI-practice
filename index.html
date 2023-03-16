@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ポケモンクイズ</title>
+  <h1 class="title">このポケモンの登場初タイトルは？</h1>
+  <link href="style.css"rel="stylesheet">
+  <script type="text/javascript" src="main.js" ></script>
+</head>
+
+<body>
+  <div>
+  <select id="place">
+    <option value="rg">赤・緑</option>
+    <option value="gs">金・銀</option>
+    <option value="rs">ルビー・サファイヤ</option>
+    <option value="dp">ダイヤモンド・パール</option>
+  </select>
+  <input type="button" value="決定" id="btn" onclick="clickBtn()"/>
+  </div>
+  
+  <div>
+    <input type="button" value="ヒント1" class="tips" id="tip1" onclick="tip1()"/>
+    <input type="button" value="ヒント2" class="tips" id="tip2" onclick="tip2()"/>
+    <input type="button" value="ヒント3" class="tips" id="tip3" onclick="tip3()"/>
+  </div>
+
+  <div>
+    <input type="button" value="別の問題へ" class="next" onclick="location.reload()">
+  </div>
+
+  <div id="tip2Text">
+  </div>
+
+  <div id="tip3Text">
+  </div>
+
+</body>
+
+</html>
